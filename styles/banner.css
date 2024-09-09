@@ -1,35 +1,26 @@
+.banner {
+    height: 900px;
+    width: 1920px;
+    background-image: url(../images/background.jpg);
+}
 .carousel {
     position: relative;
     width: 1920px;
     overflow: hidden;
-    background-color: black;
 }
-
 .carousel-images {
     display: flex;
+    align-items: center;
     transition: transform 0.5s ease-in-out;
+}
+.carousel-images p {
+    font-size: 90px;
+    font-weight: bolder;
+    color: white;
 }
 
 .carousel-images img {
-    width: 1920px;
-    height: 900px;
+    width: 520px;
+    height: 500px;
 }
 
-button {
-    position: absolute;
-    top: 50%;
-    background-color: #e878228f;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 12px;
-    cursor: pointer;
-}
-
-button.prev {
-    left: 10px;
-}
-
-button.next {
-    right: 10px;
-}
