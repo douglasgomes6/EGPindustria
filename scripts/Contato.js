@@ -28,3 +28,9 @@ form.addEventListener('submit', (e) => {
   });
 });
 
+function iniMap(){
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -23.5505,  lgn: -46.6333},
+    zoom: 15,
+});
+}
